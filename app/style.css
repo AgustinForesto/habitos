@@ -1,0 +1,10 @@
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+}
+
+.dia {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
