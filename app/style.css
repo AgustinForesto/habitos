@@ -1,6 +1,14 @@
+#calendario {
+  border: 1px solid black;
+}
 .calendario {
   display: grid;
   grid-template-columns: repeat(7, auto);
+  margin: 3rem;
+}
+
+.calendario > * {
+  margin: 5px;
 }
 
 .dia {
